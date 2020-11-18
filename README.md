@@ -1,9 +1,9 @@
 # Emotion_detection
 For CSV file reffer to link:- https://drive.google.com/file/d/1IFCFZpNQZ71euN-Phk19UvLalT5U7uja/view?usp=sharing
 ## Import Libraries
--import sys, os
--import pandas as pd
--import numpy as np
+- import sys, os
+- import pandas as pd
+- import numpy as np
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten
