@@ -1,13 +1,13 @@
 # Emotion_detection
 For CSV file reffer to link:- https://drive.google.com/file/d/1IFCFZpNQZ71euN-Phk19UvLalT5U7uja/view?usp=sharing
 ## Import Libraries
-  import sys, os
-  import pandas as pd
-  import numpy as np
+1.import sys, os
+2.import pandas as pd
+3.import numpy as np
 
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Conv2D, MaxPooling2D, BatchNormalization,AveragePooling2D
+4.from keras.models import Sequential
+5.from keras.layers import Dense, Dropout, Activation, Flatten
+6.from keras.layers import Conv2D, MaxPooling2D, BatchNormalization,AveragePooling2D
 from keras.losses import categorical_crossentropy
 from keras.optimizers import Adam
 from keras.regularizers import l2
