@@ -1,5 +1,5 @@
 # Emotion_detection
-For CSV file reffer to link:- https://drive.google.com/file/d/1IFCFZpNQZ71euN-Phk19UvLalT5U7uja/view?usp=sharing
+Emotion detection is generally based on classification technique,which requires pre- define set of emotions classes.It's an computer vision model which detects the various emotions of human faces and their emotions such as happy,sad,suprise,fear and neutral.The project is built in python environment using tenserflow.
 ## Import Libraries
 - import sys, os
 - import pandas as pd
@@ -19,6 +19,7 @@ For CSV file reffer to link:- https://drive.google.com/file/d/1IFCFZpNQZ71euN-Ph
 - from keras.models import model_from_json
 - from keras.preprocessing import image 
 ## Read CSV File
+- For CSV file reffer to link:- https://drive.google.com/file/d/1IFCFZpNQZ71euN-Phk19UvLalT5U7uja/view?usp=sharing
 ## Train model
 ### First Model
 - Accuracy- 57%
